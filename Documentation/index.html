@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Template Documentation Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">Tri Blocks Documentation by Darsan v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">Tri Blocks</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 10/4/2020<br>
+					By: Darsan<br>
+					Email: <a href="mailto:darsan1991@gmail.com">darsan1991@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my Project. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/darsan1991">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#open">How to Open The Project?</a></li>
+			<li><a href="#edit">How to Edit Project?</a></li>
+			<li><a href="#export">How to Export Project?</a></li>
+			<li><a href="#admob">How to Change Admob?</a></li>
+			<li><a href="#unity">How Change Unity Service?</a></li>
+			<li><a href="#others">How Change Other Settings?</a></li>
+		</ol>
+		
+		
+		
+		<h3 id="open"><strong>A) How to Open Project?</strong> - <a href="#toc">top</a></h3>
+		<p>1.Open the Unity Hub and Click Add</p>
+		
+		<img src="assets/images/OpenProject_1.PNG" alt="HTML Structure" />
+		
+		<p style="margin-top: 30px">2.Select The Folder that Contains Assets Folder</p>
+		<img src="assets/images/OpenProject_2_New.PNG" alt="HTML Structure" />
+		
+		<p style="margin-top: 30px">3.Select the Apporopiate Target Platform and Unity Version(Unity will automatically set unity version if you already installed same version)</p>
+		<img src="assets/images/OpenProject_3_New.PNG" alt="HTML Structure" />
+
+		
+
+		<hr>
+
+		<h3 id="edit"><strong>B) How to Edit Project?</strong> - <a href="#toc">top</a></h3>
+		<p>1.Go to File->Build Settings and click Player Settings</p>
+		
+		<img src="assets/images/EditProject_1.PNG" alt="HTML Structure" />
+		
+		<p style="margin-top: 30px">2.Change App Name,Company name,Icon,Package Name</p>
+		<img src="assets/images/EditProject_2_New.PNG" alt="HTML Structure" />
+
+		
+		<hr>
+		<h3 id="export"><strong>C) How to Export Apk?</strong> - <a href="#toc">top</a></h3>
+		<p>1.Go to File->Build Settings and click Player Settings</p>
+		
+		<img src="assets/images/EditProject_1.PNG" alt="HTML Structure" />
+		
+		<p style="margin-top: 30px">2.Set the Keystore and password Then Click Build</p>
+		<img src="assets/images/ExportSettings.PNG" alt="HTML Structure" />
+
+		
+		<hr>
+
+		<h3 id="admob"><strong>D) How to Change Admob?</strong> - <a href="#toc">top</a></h3>
+		<p>1.Set the App ids in Mobile Ads Setting  Assets->Google Mobile Ads->Setting </p>
+		
+		<img src="assets/images/MobileAdsSetting.png" alt="HTML Structure" />
+		
+		<p style="margin-top: 30px">2.Set the ads ids in Settings MyGames->Settings</p>
+		<img src="assets/images/SettingAdmobNew.PNG" alt="HTML Structure" />
+
+		<p>So, Replace with your own ids the current ids are test ids of admob you can use to test it. Check Video <a target="blank" href="https://youtu.be/dwrnRZUbwL8">Here</a></p> 
+
+		<hr>
+
+		<h3 id="unity"><strong>E) How to Change Unity Service</strong> - <a href="#toc">top</a></h3>
+
+		<p>1. Open the Windows->General->Services</p> 
+		<p>2.Create the new Project in service (Remember You have to login with unity account if not)</p>
+		<p>3.Activate the Ads and InApp Purchase</p>
+		<img src="assets/images/UnityServiceNew.PNG" alt="HTML Structure" />
+
+		
+		<p>Set your service before test. Check Video <a target="blank" href="https://youtu.be/VAewRzmy9bY">Here</a></p>
+		<p>Make sure you don't have any Errors in console. if you got errors disable and enable the ads in service with restart unity until error goes away.</p>
+
+		<hr>
+
+		<h3 id="others"><strong>F) Change Other Settings</strong> - <a href="#toc">top</a></h3>
+
+		<p>1. Open the MyGames->Settings</p> 
+		<p>2. Set the inapp purchase id - you have to setup the developer console(Apple/GooglePlay) to get in app purchase ids. if you don't want InApp Purchase you can jus disable it in Settings </p>
+		<p>3. Set the Private Policy Url - if you don't need you can disable it </p>
+		<p>4.Setup Ios App Id - If you are plan to publish ios set the app id. No need for android</p>
+		<p>5.Change the Ads Frequency - (Optional)</p>
+		<p>6.Change Rewards Amount - You can set the reward diamond Daily reward will randomly selected</p>
+		<img src="assets/images/SettingsOthers_New.PNG" alt="HTML Structure" />
+	
+
+
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this Project. As I said at the beginning, I'd be glad to help you if you have any questions relating to this Project. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+		
+		<p class="append-bottom alt large"><strong>Darsan</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
