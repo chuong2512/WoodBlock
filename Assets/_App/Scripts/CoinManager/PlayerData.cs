@@ -60,7 +60,7 @@ public class PlayerData : BaseData
     public void AddDiamond(int a)
     {
         intDiamond += a;
-
+        ResourceManager.Hints += a;
         onChangeDiamond?.Invoke(intDiamond);
         
         Save();

@@ -27,11 +27,6 @@ namespace Game
         private void Awake()
         {
             Instance = this;
-            if (IsFirstTime)
-            {
-                SharedUIManager.TutorialPanel.Show();
-                IsFirstTime = false;
-            }
         }
 
         private void OnEnable()

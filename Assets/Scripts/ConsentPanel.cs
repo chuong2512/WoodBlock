@@ -10,7 +10,7 @@ public class ConsentPanel : ShowHidable
    
     void Awake()
     {
-        _policyBtn.gameObject.SetActive(GameSettings.Default.PrivatePolicySetting.enable);
+        //_policyBtn.gameObject.SetActive(GameSettings.Default.PrivatePolicySetting.enable);
     }
 
     public void OnClickYes()
